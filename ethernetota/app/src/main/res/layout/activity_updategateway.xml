@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/path_edit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="Click here to choose your ota file"
+        android:singleLine="false"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_selector"
+        android:id="@+id/button_update"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"/>
+
+
+    <ImageView
+        android:id="@+id/imageView_check"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignBottom="@+id/button_update"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/getversion"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Running Version:"
+        android:id="@+id/textView_version"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12" />
+    <ProgressBar
+        android:id="@+id/config_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/min_margin_cutoff"
+        android:indeterminateDrawable="@drawable/progress_drawable"
+        android:visibility="invisible" />
+
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="www.atmel.com"
+            android:layout_marginBottom="1dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/grey_text_color"
+            android:textSize="@dimen/rowitem_text_size"
+            android:textStyle="bold" />
+
+</LinearLayout>
