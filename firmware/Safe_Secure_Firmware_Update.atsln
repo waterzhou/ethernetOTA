@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Safe_Secure_Firmware_Update", "Safe_Secure_Firmware_Update\Safe_Secure_Firmware_Update.cproj", "{21F33053-819D-4277-9551-E610F0F78B86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F33053-819D-4277-9551-E610F0F78B86}.Debug|ARM.ActiveCfg = Debug|ARM
+		{21F33053-819D-4277-9551-E610F0F78B86}.Debug|ARM.Build.0 = Debug|ARM
+		{21F33053-819D-4277-9551-E610F0F78B86}.Release|ARM.ActiveCfg = Release|ARM
+		{21F33053-819D-4277-9551-E610F0F78B86}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
